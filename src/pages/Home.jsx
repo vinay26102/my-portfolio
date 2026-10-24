@@ -1,5 +1,6 @@
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
+import profileImage from "../assets/vinay-profile.jpg"
 import {
   FaJava,
   FaReact,
@@ -134,9 +135,9 @@ function Home() {
           <div className="hero-image-frame">
 
             <img
-              src="/src/assets/vinay-profile.jpg"
-              alt="Vinay Thandla"
-            />
+  src={profileImage}
+  alt="Vinay Thandla"
+/>
 
           </div>
 
