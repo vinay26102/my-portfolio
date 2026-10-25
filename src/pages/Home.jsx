@@ -723,262 +723,242 @@ function Home() {
 
 
       {/* =================================
-          PROJECTS SECTION
-      ================================= */}
+    PROJECTS SECTION
+================================= */}
 
-      <section id="projects" className="projects">
+<section id="projects" className="projects">
 
-        <div className="projects-container">
+  <div className="projects-container">
 
-          <div className="projects-heading">
+    <div className="projects-heading">
 
-            <p className="section-label">
-              MY PROJECTS
-            </p>
+      <p className="section-label">
+        MY PROJECTS
+      </p>
 
-            <h2>
-              Things I've <span>built.</span>
-            </h2>
+      <h2>
+        Things I've <span>built.</span>
+      </h2>
 
-            <p className="projects-intro">
-              A collection of projects where I combine development,
-              testing and problem-solving to create practical
-              and real-world solutions.
-            </p>
+      <p className="projects-intro">
+        A collection of projects where I combine development,
+        testing and problem-solving to create practical
+        and real-world solutions.
+      </p>
 
+    </div>
+
+
+    <div className="projects-list">
+
+
+      {/* PROJECT 01 */}
+
+      <article className="project-showcase">
+
+        <div className="project-details">
+
+          <div className="project-number">
+            01
           </div>
 
-
-          <div className="projects-list">
-
-
-            {/* PROJECT 01 */}
-
-            <article className="project-showcase">
-
-              <div className="project-details">
-
-                <div className="project-number">
-                  01
-                </div>
-
-                <div className="project-content">
-
-                  <p className="project-category">
-                    E-COMMERCE WEBSITE
-                  </p>
-
-                  <h3>
-                    Mom's Pickle
-                  </h3>
-
-                  <p className="project-description">
-                    A modern e-commerce website for a traditional
-                    homemade pickle brand, designed with a warm
-                    and authentic visual experience.
-                  </p>
-
-                  <div className="project-technologies">
-                    <span>React</span>
-                    <span>JavaScript</span>
-                    <span>CSS</span>
-                    <span>React Hooks</span>
-                    <span>E-Commerce</span>
-                  </div>
-
-                  <a
-                    href="https://www.amazon.in/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-view-btn"
-                  >
-                    View Project
-                    <span>↗</span>
-                  </a>
-
-                </div>
-
-              </div>
-
-
-              <a
-                href="https://www.amazon.in/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-preview"
-              >
-
-                <iframe
-                  src="https://www.amazon.in/"
-                  title="Amazon Preview"
-                />
-
-                <div className="project-preview-overlay">
-
-                  <span>
-                    Open Project <b>↗</b>
-                  </span>
-
-                </div>
-
-              </a>
-
-            </article>
-
-
-            {/* PROJECT 02 */}
-
-            <article className="project-showcase reverse">
-
-              <a
-                href="https://www.flipkart.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-preview"
-              >
-
-                <iframe
-                  src="https://www.flipkart.com/"
-                  title="Flipkart Preview"
-                />
-
-                <div className="project-preview-overlay">
-
-                  <span>
-                    Open Project <b>↗</b>
-                  </span>
-
-                </div>
-
-              </a>
-
-
-              <div className="project-details">
-
-                <div className="project-number">
-                  02
-                </div>
-
-                <div className="project-content">
-
-                  <p className="project-category">
-                    RESTAURANT WEBSITE
-                  </p>
-
-                  <h3>
-                    Restaurant Website
-                  </h3>
-
-                  <p className="project-description">
-                    A responsive restaurant website with menu
-                    browsing, category filtering, cart functionality
-                    and a clean modern interface.
-                  </p>
-
-                  <div className="project-technologies">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>Responsive UI</span>
-                  </div>
-
-                  <a
-                    href="https://www.flipkart.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-view-btn"
-                  >
-                    View Project
-                    <span>↗</span>
-                  </a>
-
-                </div>
-
-              </div>
-
-            </article>
-
-
-            {/* PROJECT 03 */}
-
-            <article className="project-showcase">
-
-              <div className="project-details">
-
-                <div className="project-number">
-                  03
-                </div>
-
-                <div className="project-content">
-
-                  <p className="project-category">
-                    TEST AUTOMATION
-                  </p>
-
-                  <h3>
-                    Self-Healing Automation
-                  </h3>
-
-                  <p className="project-description">
-                    An automation framework designed to handle
-                    changing web locators using self-healing
-                    mechanisms with Selenium, Java and Python.
-                  </p>
-
-                  <div className="project-technologies">
-                    <span>Java</span>
-                    <span>Selenium</span>
-                    <span>Python</span>
-                    <span>Flask</span>
-                    <span>Automation</span>
-                  </div>
-
-                  <a
-                    href="https://www.myntra.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-view-btn"
-                  >
-                    View Project
-                    <span>↗</span>
-                  </a>
-
-                </div>
-
-              </div>
-
-
-              <a
-                href="https://www.myntra.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="project-preview"
-              >
-
-                <iframe
-                  src="https://www.myntra.com/"
-                  title="Myntra Preview"
-                />
-
-                <div className="project-preview-overlay">
-
-                  <span>
-                    Open Project <b>↗</b>
-                  </span>
-
-                </div>
-
-              </a>
-
-            </article>
-
+          <div className="project-content">
+
+            <p className="project-category">
+              E-COMMERCE WEBSITE
+            </p>
+
+            <h3>
+              Mom's Pickle
+            </h3>
+
+            <p className="project-description">
+              A modern e-commerce website for a traditional
+              homemade pickle brand, designed with a warm
+              and authentic visual experience.
+            </p>
+
+            <div className="project-technologies">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+              <span>React Hooks</span>
+              <span>E-Commerce</span>
+            </div>
+
+            <a
+              href="https://www.amazon.in/"
+              target="_blank"
+              rel="noreferrer"
+              className="project-view-btn"
+            >
+              View Project
+              <span>↗</span>
+            </a>
 
           </div>
 
         </div>
 
-      </section>
 
+        <a
+          href="https://www.amazon.in/"
+          target="_blank"
+          rel="noreferrer"
+          className="project-preview"
+        >
+
+          <iframe
+            src="https://www.amazon.in/"
+            title="Mom's Pickle Preview"
+          />
+
+          <div className="project-preview-overlay">
+
+            <span>
+              Open Project <b>↗</b>
+            </span>
+
+          </div>
+
+        </a>
+
+      </article>
+
+
+      {/* PROJECT 02 — FINTRACK */}
+
+      <article className="project-showcase reverse">
+
+        <a
+          href="https://fin-track-black-three.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="project-preview"
+        >
+
+          <iframe
+            src="https://fin-track-black-three.vercel.app/"
+            title="FinTrack Preview"
+          />
+
+          <div className="project-preview-overlay">
+
+            <span>
+              Open Project <b>↗</b>
+            </span>
+
+          </div>
+
+        </a>
+
+
+        <div className="project-details">
+
+          <div className="project-number">
+            02
+          </div>
+
+          <div className="project-content">
+
+            <p className="project-category">
+              PERSONAL FINANCE DASHBOARD
+            </p>
+
+            <h3>
+              FinTrack
+            </h3>
+
+            <p className="project-description">
+              A modern personal finance dashboard for managing
+              transactions, tracking income and expenses, and
+              visualizing financial insights through interactive
+              analytics.
+            </p>
+
+            <div className="project-technologies">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>React Router</span>
+              <span>Recharts</span>
+              <span>LocalStorage</span>
+              <span>Responsive UI</span>
+            </div>
+
+            <a
+              href="https://fin-track-black-three.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="project-view-btn"
+            >
+              View Project
+              <span>↗</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      {/* PROJECT 03 */}
+
+      <article className="project-showcase">
+
+        <div className="project-details">
+
+          <div className="project-number">
+            03
+          </div>
+
+          <div className="project-content">
+
+            <p className="project-category">
+              RESTAURANT WEBSITE
+            </p>
+
+            <h3>
+              Restaurant Website
+            </h3>
+
+            <p className="project-description">
+              A responsive restaurant website with menu
+              browsing, category filtering, cart functionality
+              and a clean modern interface.
+            </p>
+
+            <div className="project-technologies">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive UI</span>
+            </div>
+
+            <a
+              href="https://www.flipkart.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="project-view-btn"
+            >
+              View Project
+              <span>↗</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* =================================
           CERTIFICATIONS
